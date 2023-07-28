@@ -16,6 +16,7 @@ body {
 
 .middle-container {
     padding-top:100px;
+    margin: 100px 0;
 }
 
 h1{
@@ -52,18 +53,18 @@ p{
 }
 
 .intro{
-    width: 150%;
+    width: 30%;
     margin: auto;
 }
 
 hr {
-    border: dotted #eaf6f6 6px;
+    border: dotted #95adad 6px;
     border-bottom: none;
     width: 4%;
     margin: 100px auto;
 }
 
-.parent1 {
+.parent {
     display: grid;
     grid-template-columns: 0.5fr 1fr;
     grid-template-rows: repeat(1, 1fr);
@@ -71,16 +72,45 @@ hr {
     margin: 100px auto 0 auto;
     text-align: left;
     row-gap: 2rem;
-  }
+}
+  
+.YMCA {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    text-align: justify;
+}
 
-  .YMCA{
-    width: 150%;
-    float: left;
-    margin-right: 50;
-  }
+.YMCAexp{
+    padding-left: 1rem;
+}
 
-  .YMCA-explained{
-    width: 50%;
-    margin: 100px auto 100px auto;
-    text-align: left;
-  }
+.UCI-img {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+  .aboutme{
+    width: 30%;
+    margin: auto;
+}
+.bottom-container {
+    background-color: #9288F8;
+    padding: 50px 0 20px;
+
+}
+.About-container{
+    padding-bottom: 10%;
+    margin-bottom: 10;
+}
+  
+a {
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
